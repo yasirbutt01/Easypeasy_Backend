@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Audit.NET" Version="16.2.0" />
+    <PackageReference Include="Audit.WebApi.Core" Version="16.2.0" />
+    <PackageReference Include="Braintree" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Twilio" Version="5.47.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasyPeasy.Common\EasyPeasy.Common.csproj" />
+    <ProjectReference Include="..\EasyPeasy.DataViewModels\EasyPeasy.DataViewModels.csproj" />
+    <ProjectReference Include="..\EasyPeasy.Data\EasyPeasy.Data.csproj" />
+  </ItemGroup>
+
+</Project>
